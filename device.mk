@@ -114,6 +114,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
     libprotobuf-cpp-lite-3.9.1-vendorcompat
 
+# Engineering
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.engineermode.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.engineermode.xml
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
