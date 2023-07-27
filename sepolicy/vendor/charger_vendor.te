@@ -1,0 +1,4 @@
+rw_dir_file(charger_vendor, sysfs_leds)
+
+r_dir_file(charger_vendor, gpu_device)
+allow charger_vendor gpu_device:chr_file rw_file_perms;
