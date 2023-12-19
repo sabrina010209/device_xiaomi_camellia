@@ -4,11 +4,6 @@ ro.charger.enable_suspend=true
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
-# IMS
-persist.dbg.volte_avail_ovr=1
-persist.dbg.vt_avail_ovr=1
-persist.dbg.wfc_avail_ovr=1
-
 # RIL Powersaving
 persist.radio.add_power_save=1
 pm.sleep_mode=1
