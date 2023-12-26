@@ -380,8 +380,13 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service.mt6833
 
 # Vibrator
+$(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
+
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.mediatek
+    vendor.qti.hardware.vibrator.service
+
+PRODUCT_COPY_FILES += \
+    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
