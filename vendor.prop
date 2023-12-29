@@ -77,6 +77,7 @@ dalvik.vm.dex2oat64.enabled=true
 
 # Display
 debug.mediatek.appgamepq_compress=1
+debug.renderengine.backend=gles
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_hwc_vds=0
