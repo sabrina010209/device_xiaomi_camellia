@@ -1337,7 +1337,7 @@ vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/vendor.mediatek.hardware.clientapi@1.0.so
 
-# Radio (IMS) - from TECNO-CK9n UP1A.230519.001
+# Radio (IMS) - from Light-CN UP1A.231005.007
 vendor/bin/hw/vtservice_hidl|047b26f80b338b7d0869840d243eefebe82d56f5
 vendor/etc/init/init.vtservice_hidl.rc|f2e992214ed5bb99c2c2a135cf1f0996dba8a8a0
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so|bb9ff554802e7bffb72cf24604109dafcf0019fc
@@ -1373,6 +1373,25 @@ system_ext/lib64/libvcodec_capenc.so|5527525dfcd25169bc380ac53d8181ffa1429c6f
 system_ext/lib64/libvt_avsync.so|632cb05532ef2e022072d91bff3c1ae47c888b7e
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so|fc3f645734d4e37fa50b77233d63c7b2eb166014
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|aee568e770a3835af2df2262c9dc8bb2911da324
+
+# IMS - from Light-CN UP1A.231005.007
+system_ext/bin/vtservice|eeb08595c53be9d7a69ba5b677b5604f753eab37
+system_ext/etc/init/init.vtservice.rc|50a2249906edc06059b443513db47a2ddc0490dc
+system_ext/lib64/libcomutils.so|fae6b5fd7628518eaf3e3eadac2133dd83f30839
+system_ext/lib64/libimsma.so|6e754e450f7d2a83b458ea617919aa50da68fdfa
+system_ext/lib64/libimsma_adapt.so|87682d1ecd12331841ce3b9f6eb04822a6725488
+system_ext/lib64/libimsma_rtp.so|25b249764ba9df7d89f3af209f38e4cb4993ddb3
+system_ext/lib64/libimsma_socketwrapper.so|6e754e450f7d2a83b458ea617919aa50da68fd
+system_ext/lib64/libmtk_vt_service.so|da476c19203b98d1d33371b3aaa3f5eaa449ef7b
+system_ext/lib64/libmtk_vt_wrapper.so|915cb3a2c7972384041a8bb86a7db6b68fd61450
+system_ext/lib64/libsignal.so|5595f5d7b6e7320572ec05ac199f951d141b516a
+system_ext/lib64/libsink.so|26960c65fda81bf4dd978fe19dcc20d3b0fc77b1
+system_ext/lib64/libsource.so|ae532bd41547fd72c77456a94843fe94201d947c
+system_ext/lib64/libvcodec_cap.so|5c8b0d5bba757b176b03b7219fdd810352f92a57
+system_ext/lib64/libvcodec_capenc.so|2a9dd2edc46a17f402f342f09035ba5c25bb7ea2
+system_ext/lib64/libvt_avsync.so|186a5263b1be36e3f5ba47c0e8b40bca48a6b382
+system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so|037d44e408f08b7d0d23cd9a80de26102ae9e856
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|ef998601b41eefe3f981bf773fa34b0445f6ad65
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
