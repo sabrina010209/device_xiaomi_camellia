@@ -1331,16 +1331,27 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 
 # Radio (Engineer Mode) - from plato-user 14 UP1A.230620.001 V14.0.7.0.ULQMIXM release-keys
 system_ext/app/EngineerMode/EngineerMode.apk|e34588606d108ea5aa154f55460fd46c8bbd677c
+vendor/bin/autobt|4c3abea3c053c36ddf59cc11bd6e8ca67e88d3a2
 system_ext/lib/libem_support_jni.so|d7749442151059cd6136ca1ddb22c510e744bdc0
 system_ext/lib64/libem_support_jni.so|b7d3b3bfa079b6bca9acb0a7c054a7a234d92818
 vendor/bin/em_hidl|973b6f8728f4f6f74250fe83fbfde4f7bffc216f
 vendor/etc/init/em_hidl_user.rc|bdb5893df3e78d2d2adaf72bc7e56dfeee0be308
+vendor/lib/libbluetooth_relayer.so||fdb1e5ecbb884902eb54b9519cc9a93de845270a
+vendor/lib64/libbluetooth_relayer.so||a41b3c46e9a78f04648f5f21299d818157139142
 vendor/lib64/libbluetooth_relayer.so|1614bf298f6c000baf84df5f6f1b53a6c8465a57
 vendor/lib64/libbluetoothem_mtk.so|37265565d04c0b52d126c803e09e2d7b67ca34bf
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so|238723b79a4e42e0d566a5cf1100e5e09dd20da9
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so|6c3c4bf708a55dedaa7227f32411cf790967a3ca
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so|989aafe0e845a46c9efe9fd8260a829d476ea37d
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so|cdf35668f34df78a4e83a04c5d3575c476d4ab5d
+
+# Engineering (system) - from Light-CN UP1A.231005.007
+system/lib/libem_audio_jni.so|95ac42abd3266da17a070a4edd8f4a80d2cee6bd
+system/lib/libem_aoltest_jni.so|ddc7ddb3dd22ee8ff60729f96743dfc1fbada3f6
+system/lib/libem_wifi_jni.so|595472708db8cbfaf817b9188cb60e4b217aea27
+system/lib64/libem_audio_jni.so|f2385a25181d2e27b8b60bf267542ceeac60ca50
+system/lib64/libem_aoltest_jni.so|d340e73c7c278f7b93244cdbac4a2c571d39bda1
+system/lib64/libem_wifi_jni.so|c6195d124e30aaa29bfd0f8f0210ef9cad21060f
 
 # Radio (IMS)
 vendor/bin/hw/vtservice_hidl
